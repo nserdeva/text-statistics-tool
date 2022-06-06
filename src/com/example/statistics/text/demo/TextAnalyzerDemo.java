@@ -23,11 +23,11 @@ public class TextAnalyzerDemo {
     final List<String> listMostFrequentWords = TextAnalyzer.getMostFrequentWords(6, str); // 260
     System.out.println(
         "Top 6 most frequent words: "
-            + listMostFrequentWords); // [non, est, enim, quid, ut, mihi] /
+            + listMostFrequentWords); // [non, est, enim, quid, ut, mihi]
 
     // 3. What percentage of the words only occur once?
     final float wordsFrequencyPercentage = TextAnalyzer.getWordsFrequencyPercentage(1, str);
     System.out.println(
-        "Total percentage of words occurring once: " + wordsFrequencyPercentage + "%");
+        "Total percentage of words occurring once: " + wordsFrequencyPercentage + "%"); // 82.0%
   }
 }
